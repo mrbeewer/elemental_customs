@@ -17,18 +17,22 @@ $header-nav-color: rgb(125,180,181);
 $nav-border-color: rgb(104,1,72);
 $body-color: rgb(224,239,241);
 
-#wrapper {
-  width: 100%;
-  /* percentages, em, rem, are better RESPONSIVE */
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+
+body {
+  font-size: $body-text;
+  margin: 0 auto;
+  background-color: $body-color;
 }
 
-#navbar {
- background-color: $header-nav-color;
- padding-bottom: 0.25rem;
+h1 {
+  font-size: $headline-text;
+  font-family: $sans-serif;
+  margin: $headline-margin;
+}
+
+p {
+  font-size: $body-text;
+  font-family: $serif;
 }
 
 a {
@@ -44,16 +48,18 @@ a {
   color: black;
 }
 
-body {
-  font-size: $body-text;
-  margin: 0 auto;
-  background-color: $body-color;
+#wrapper {
+  width: 100%;
+  /* percentages, em, rem, are better RESPONSIVE */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
-h1 {
-  font-size: $headline-text;
-  font-family: $sans-serif;
-  margin: $headline-margin;
+#navbar {
+ background-color: $header-nav-color;
+ padding-bottom: 0.25rem;
 }
 
 #logo {
@@ -78,7 +84,6 @@ h1 {
   width: 40%;
 }
 
-
 #content-right {
   display: inline-block;
   text-align: left;
@@ -95,27 +100,3 @@ h1 {
 .misc-bottom-img {
 width: 20%;
 }
-
-
-
-
-
-
-p {
-  font-size: $body-text;
-  font-family: $serif;
-}
-
-//
-// nav li {
-//   font-size: $nav-item;
-// }
-//
-// h2 {
-//   font-size: $sub-header;
-//   font-family: $serif;
-// }
-//
-// figcaption {
-//   font-size: $byline;
-// }

@@ -1,9 +1,8 @@
 
-# Elemental Customs
+# Conceptual Layout: Elemental Customs
 
-## Creating custom pieces from wood and metal ranging from magic wand to daggers.
+#### Creating custom pieces from wood and metal.
 
-###### About Me
 
 <br />
 

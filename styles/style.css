@@ -1,14 +1,16 @@
-#wrapper {
-  width: 100%;
-  /* percentages, em, rem, are better RESPONSIVE */
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative; }
+body {
+  font-size: 1rem;
+  margin: 0 auto;
+  background-color: #e0eff1; }
 
-#navbar {
-  background-color: #7db4b5;
-  padding-bottom: 0.25rem; }
+h1 {
+  font-size: 3rem;
+  font-family: "Anton", sans-serif;
+  margin: 0px; }
+
+p {
+  font-size: 1rem;
+  font-family: "Crimson Text", serif; }
 
 a {
   display: inline-block;
@@ -22,15 +24,17 @@ a {
   font-family: "Crimson Text", serif;
   color: black; }
 
-body {
-  font-size: 1rem;
-  margin: 0 auto;
-  background-color: #e0eff1; }
+#wrapper {
+  width: 100%;
+  /* percentages, em, rem, are better RESPONSIVE */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
 
-h1 {
-  font-size: 3rem;
-  font-family: "Anton", sans-serif;
-  margin: 0px; }
+#navbar {
+  background-color: #7db4b5;
+  padding-bottom: 0.25rem; }
 
 #logo {
   margin: 0 auto;
@@ -63,9 +67,5 @@ h1 {
 
 .misc-bottom-img {
   width: 20%; }
-
-p {
-  font-size: 1rem;
-  font-family: "Crimson Text", serif; }
 
 /*# sourceMappingURL=style.css.map */
