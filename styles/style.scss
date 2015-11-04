@@ -1,0 +1,121 @@
+// style guide variables
+$headline-text: 3rem; // 300%
+$body-text: 1rem; // 100%
+$nav-item: 1.25rem; // 125%
+$sub-header: 1.50rem; // 150%
+$byline: 0.75rem; // 75%
+
+// margin sizes for headlines
+$headline-margin: 0px;
+
+// font variables
+$sans-serif: 'Anton', sans-serif;
+$serif: 'Crimson Text', serif;;
+
+// color variables
+$header-nav-color: rgb(125,180,181);
+$nav-border-color: rgb(104,1,72);
+$body-color: rgb(224,239,241);
+
+#wrapper {
+  width: 100%;
+  /* percentages, em, rem, are better RESPONSIVE */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#navbar {
+ background-color: $header-nav-color;
+ padding-bottom: 0.25rem;
+}
+
+a {
+  display: inline-block;
+  width: 10%;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0 auto;
+  border: 0.25rem solid $nav-border-color;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: $serif;
+  color: black;
+}
+
+body {
+  font-size: $body-text;
+  margin: 0 auto;
+  background-color: $body-color;
+}
+
+h1 {
+  font-size: $headline-text;
+  font-family: $sans-serif;
+  margin: $headline-margin;
+}
+
+#logo {
+  margin: 0 auto;
+  background-color: $header-nav-color;
+}
+
+#logo-img {
+  width: 20%;
+  margin-top: 1rem;
+}
+
+#banner-img {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+#content-left {
+  display: inline-block;
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: left;
+  width: 40%;
+}
+
+
+#content-right {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+}
+
+#footer-images {
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  text-align: center;
+}
+
+.misc-bottom-img {
+width: 20%;
+}
+
+
+
+
+
+
+p {
+  font-size: $body-text;
+  font-family: $serif;
+}
+
+//
+// nav li {
+//   font-size: $nav-item;
+// }
+//
+// h2 {
+//   font-size: $sub-header;
+//   font-family: $serif;
+// }
+//
+// figcaption {
+//   font-size: $byline;
+// }

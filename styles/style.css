@@ -1,0 +1,71 @@
+#wrapper {
+  width: 100%;
+  /* percentages, em, rem, are better RESPONSIVE */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+
+#navbar {
+  background-color: #7db4b5;
+  padding-bottom: 0.25rem; }
+
+a {
+  display: inline-block;
+  width: 10%;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0 auto;
+  border: 0.25rem solid #680148;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "Crimson Text", serif;
+  color: black; }
+
+body {
+  font-size: 1rem;
+  margin: 0 auto;
+  background-color: #e0eff1; }
+
+h1 {
+  font-size: 3rem;
+  font-family: "Anton", sans-serif;
+  margin: 0px; }
+
+#logo {
+  margin: 0 auto;
+  background-color: #7db4b5; }
+
+#logo-img {
+  width: 20%;
+  margin-top: 1rem; }
+
+#banner-img {
+  width: 100%;
+  margin-top: 2rem; }
+
+#content-left {
+  display: inline-block;
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: left;
+  width: 40%; }
+
+#content-right {
+  display: inline-block;
+  text-align: left;
+  width: 40%; }
+
+#footer-images {
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  text-align: center; }
+
+.misc-bottom-img {
+  width: 20%; }
+
+p {
+  font-size: 1rem;
+  font-family: "Crimson Text", serif; }
+
+/*# sourceMappingURL=style.css.map */
