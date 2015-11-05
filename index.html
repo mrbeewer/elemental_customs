@@ -5,6 +5,9 @@
     <title>Elemental Customs</title>
     <link rel="stylesheet" href="styles/style.css">
     <link href='https://fonts.googleapis.com/css?family=Anton|Crimson+Text' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="scripts/app.js">
+
+    </script>
   </head>
   <body>
     <div id="wrapper">
@@ -26,9 +29,11 @@
           <img src="http://i.imgur.com/dqUNJQw.jpg?1" alt=""/>
         </div>
       <div id="content-left">
+          <p id="content-left-wording">
+        </p>
         <p>
-          COL1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>
-          COL1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          COL1P1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>
+          COL1P2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
 
@@ -40,6 +45,31 @@
       </div>
     </section>
     </div>
+
+<section id="status-message">
+  <input type="text" name="input" id="colorNameInput" value="Type color name here">
+    <button type="button" name="button" id="saveColor">Click here save the color scheme</button>
+  <!-- <button type="button" name="button" id="addPoint">Click here to add a point</button> -->
+  <div id="RGB_Set_Body">
+    <p>RGB Controls for BODY</p>
+    <section id="RGB-body">RGB(224,239,241)</section>
+    <input id="barslide-red-body" name="slider" type="range" class="barslider" min="0" max="255">
+    <input id="barslide-green-body" name="slider" type="range" class="barslider"  min="0" max="255">
+    <input id="barslide-blue-body" name="slider" type="range" class="barslider"  min="0" max="255">
+  </div>
+  
+  <div id="RGB_Set_Header">
+    <p>RGB Controls for HEADER</p>
+    <section id="RGB-header">RGB(125,180,181)</section>
+    <input id="barslide-red-header" name="slider" type="range" class="barslider" min="0" max="255">
+    <input id="barslide-green-header" name="slider" type="range" class="barslider"  min="0" max="255">
+    <input id="barslide-blue-header" name="slider" type="range" class="barslider"  min="0" max="255">
+  </div>
+
+
+</section>
+
+
 
 <footer id="footer-images">
     <img src="http://i.imgur.com/F3F5KR4.jpg?1" alt="" class="misc-bottom-img"/>

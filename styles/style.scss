@@ -35,6 +35,11 @@ p {
   font-family: $serif;
 }
 
+div {
+    font-size: $body-text;
+    font-family: $serif;
+}
+
 a {
   display: inline-block;
   width: 10%;
@@ -46,6 +51,14 @@ a {
   text-transform: uppercase;
   font-family: $serif;
   color: black;
+}
+
+a:hover {
+  background-color: $nav-border-color;
+}
+
+a:active {
+  background-color: yellow;
 }
 
 #wrapper {
@@ -90,11 +103,68 @@ a {
   width: 40%;
 }
 
+#kitten {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#kitten-hidden {
+  display: none;
+}
+
+#status-message {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  clear: both;
+  text-align: center;
+}
+
+#colorNameInput {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  clear: both;
+  text-align: center;
+}
+
+#saveColor {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  clear: both;
+  text-align: center;
+}
+
+#RGB {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  clear: both;
+  text-align: center;
+}
+
+#RGB_Set_Body {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+#RGB_Set_Header {
+  display: inline-block;
+}
+
 #footer-images {
   margin-left: auto;
   margin-right: auto;
   clear: both;
   text-align: center;
+}
+
+.barslider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .misc-bottom-img {
