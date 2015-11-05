@@ -73,7 +73,9 @@ var sliderGreenHeader = 180;
 var sliderBlueHeader = 181;
 var colorName = null;
 
-// constructor (blueprint) for the color schemes
+// Constructor (blueprint) for the color schemes
+//// when called (by createConstructors()) a new Object
+//// is created containing the appropriate name and RGB colors
 function backgroundColorScheme(name, redBody, greenBody, blueBody, redHeader, greenHeader, blueHeader) {
   this.name = name;
   this.redBody = redBody;
@@ -92,10 +94,15 @@ function backgroundColorScheme(name, redBody, greenBody, blueBody, redHeader, gr
   };
 }
 
-// create new ColorSchemes
+// Create new ColorSchemes
+//// When called, this function creates an array to store all
+//// the color schemes that are saved by the user.
 function createConstructors(newName, sliderRedBody, sliderGreenBody, sliderBlueBody, sliderRedHeader, sliderGreenHeader, sliderBlueHeader) {
+
   console.log(newName, sliderRedBody, sliderGreenBody, sliderBlueBody, sliderRedHeader, sliderGreenHeader, sliderBlueHeader);
+
   colorScheme[index] = new backgroundColorScheme(newName, sliderRedBody, sliderGreenBody, sliderBlueBody, sliderRedHeader, sliderGreenHeader, sliderBlueHeader);
+
   index += 1;
 }
 
@@ -137,7 +144,7 @@ function saveSliderValues(slrRedBody,slrGreenBody,slrBlueBody,slrRedHeader,slrGr
 function postRGB(statusRGBBody,statusRGBHeader) {
   statusRGBBody.innerHTML = "RGB(" + sliderRedBody + "," + sliderGreenBody +
   "," + sliderBlueBody + ")";
-  
+
   statusRGBHeader.innerHTML = "RGB(" + sliderRedHeader + "," + sliderGreenHeader +
   "," + sliderBlueHeader + ")";
 }
