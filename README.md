@@ -6,8 +6,8 @@
 <br />
 
 ##### Change Log
-11/3/2015: Paper wireframe to HTML & CSS Concept
-11/4/2015: Added sliderbars that allow the user to change the background-color of the body and the header (live). User is also able to create color scheme constructors based on the current sliderbar values. The constructor code is as follows:
+* 11/3/2015: Paper wireframe to HTML & CSS Concept
+* 11/4/2015: Added sliderbars that allow the user to change the background-color of the body and the header (live). User is also able to create color scheme constructors based on the current sliderbar values. The constructor code is as follows:
 
 ```javascript
 // Constructor (blueprint) for the color schemes
